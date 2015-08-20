@@ -7,7 +7,6 @@ More details are available on [Docker Hub Registry - RatticDB](https://hub.docke
 Install [Docker](https://docs.docker.com/installation/) on your favourite distro and run the container.
 
 ### Run Container
-Run the below commands to run the container
 ```bash
 docker pull vikas027/ratticdb
 docker run --name <any_name> -d -p <host_http_port>:80 vikas027/ratticdb
