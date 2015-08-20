@@ -10,7 +10,7 @@ Install [Docker](https://docs.docker.com/installation/) on your favourite distro
 Run the below commands to run the container
 ```bash
 docker pull vikas027/ratticdb
-docker run --name <any_name> -d -p <host_http_port>:80
+docker run --name <any_name> -d -p <host_http_port>:80 vikas027/ratticdb
 ```
 
 ### How to Login
