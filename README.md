@@ -4,7 +4,7 @@ The docker container is based on Debian Wheezy. [RatticDB](http://rattic.org) v1
 More details are available on [Docker Hub Registry - RatticDB](https://hub.docker.com/r/vikas027/ratticdb/).
 
 ### Docker Installation
-Install [Docker](https://docs.docker.com/installation/) on your favourite distro and run the container
+Install [Docker](https://docs.docker.com/installation/) on your favourite distro and run the container.
 
 ### Run Container
 Run the below commands to run the container
@@ -13,7 +13,7 @@ docker pull vikas027/ratticdb
 docker run --name <any_name> -d -p <host_http_port>:80 vikas027/ratticdb
 ```
 
-### How to Login
+### How to Login ?
 ```bash
 URL: http://IP
 Username: admin
