@@ -13,6 +13,9 @@ docker pull vikas027/ratticdb
 docker run --name <any_name> -d -p <host_http_port>:80
 ```
 
+### How to Login
+```bash
 URL: http://IP
 Username: admin
 Password: rattic (Make sure you change it)
+```
