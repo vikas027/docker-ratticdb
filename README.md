@@ -1,5 +1,5 @@
 # Docker Container for RatticDB v1.3.1
-The docker container is based on Debian Wheezy. [RatticDB](http://rattic.org) v1.3.1 has been installed and configured to run properly in the container.
+The docker container is based on Debian Wheezy. [RatticDB](http://rattic.org) v1.3.1 has been installed and configured to run properly in a container.
 
 More details are available on [Docker Hub Registry - RatticDB](https://hub.docker.com/r/vikas027/ratticdb/).
 
