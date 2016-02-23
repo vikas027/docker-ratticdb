@@ -10,6 +10,7 @@ ADD start-apache.sh /start-apache.sh
 # Archive https://github.com/tildaslash/RatticWeb/archive/v1.3.1.zip
 ADD v1.3.1.zip /opt/
 RUN cd /opt/ && unzip v1.3.1.zip
+ADD requirements-base.txt /opt/RatticWeb-1.3.1/requirements-base.txt
 ADD requirements-sqlite.txt /opt/RatticWeb-1.3.1/
 ADD local.cfg /opt/RatticWeb-1.3.1/conf/local.cfg
 RUN cd /opt/RatticWeb-1.3.1/ && \
