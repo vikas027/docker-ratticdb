@@ -13,6 +13,8 @@ docker run --name <any_name> -d -p <host_http_port>:80 vikas027/ratticdb
 
 # To make the data persistent
 docker run --name <any_name> -d -p <host_http_port>:80 -v <path_to_existing_rattic.db>:/opt/RatticWeb-1.3.1/rattic.db:rw vikas027/ratticdb 
+OR
+docker run --name <any_name> -d -p <host_http_port>:80 -v <rattic.db_in_this_repository>:/opt/RatticWeb-1.3.1/rattic.db:rw vikas027/ratticdb
 ```
 
 ### How to Login ?
